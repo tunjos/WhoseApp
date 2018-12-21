@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.whoseapp.MainActivity">
+    <item
+        android:id="@+id/action_new_group"
+        android:orderInCategory="1"
+        android:title="@string/new_group"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_new_broadcast"
+        android:orderInCategory="2"
+        android:title="@string/new_broadcast"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_whoseapp_web"
+        android:orderInCategory="3"
+        android:title="@string/whoseapp_web"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_starred_messages"
+        android:orderInCategory="4"
+        android:title="@string/starred_messages"
+        app:showAsAction="never" />
+</menu>

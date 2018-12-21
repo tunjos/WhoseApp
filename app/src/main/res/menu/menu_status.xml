@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.whoseapp.MainActivity">
+    <item
+        android:id="@+id/action_status_privacy"
+        android:orderInCategory="1"
+        android:title="@string/status_privacy"
+        app:showAsAction="never" />
+</menu>
